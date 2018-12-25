@@ -4,7 +4,7 @@ const a = new Discord.Client();
 const b = new Discord.Client();
 console.log("By al7midy");
 const ownerid = '501145722956283953';
-const ownerid1 = '518024839953645588';
+
 
 
 client.on("ready", () => {
@@ -37,7 +37,7 @@ client.on('message', message => {
   if (command == "b") {
         		        if (message.author.id != ownerid) return;
     
-        		        if (message.author.id != ownerid1) return;
+
     message.delete().catch(O_o=>{}); 
 
    message.channel.sendMessage(args.join("  "))
