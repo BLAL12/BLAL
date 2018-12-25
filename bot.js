@@ -4,7 +4,7 @@ const a = new Discord.Client();
 const b = new Discord.Client();
 console.log("By al7midy");
 const ownerid = '501145722956283953';
-const ownerid = '518024839953645588';
+const ownerid1 = '518024839953645588';
 
 
 client.on("ready", () => {
