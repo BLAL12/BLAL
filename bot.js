@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("By al7midy");
-const ownerid = '518024839953645588';
+const ownerid = '501145722956283953';
 
 client.on("ready", () => {
 let channel =     client.channels.get("527067290508722179")
