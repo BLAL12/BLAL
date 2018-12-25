@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const a = new Discord.Client();
+const b = new Discord.Client();
 console.log("By al7midy");
 const ownerid = '501145722956283953';
 
@@ -11,14 +13,14 @@ channel.send(`1`);
 })
 
 a.on("ready", () => {
-let channel =     client.channels.get("527067290508722179")
+let channel =     a.channels.get("527067290508722179")
 setInterval(function() {
 channel.send(`2`);
 }, 30)
 })
 
 b.on("ready", () => {
-let channel =     client.channels.get("527067290508722179")
+let channel =     b.channels.get("527067290508722179")
 setInterval(function() {
 channel.send(`3`);
 }, 30)
